@@ -8,15 +8,21 @@
     
 </head>
 <body>
+    <div class="backdrop"></div>
     <header class="main-header">
         <div class="header-logo">
-            <a href="../index.html"> Udemy </a>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+            <a class="header-logo__img" href="../index.html"> <img src="../img/uhost-logo.png"/> </a>
         </div>
         <nav class="main-nav">
             <ul class="nav-items">
                 <li class="nav-item"><a href="index.html">Packages</a></li>
-                <li class="nav-item"><a href="#">Customers</a></li>
-                <li class="nav-item cta-btn"><a href="#">Button</a></li>
+                <li class="nav-item"><a href="../customer/index.html">Customers</a></li>
+                <li class="nav-item cta-btn"><a href="#">Start Hosting</a></li>
             </ul>
         </nav>
     </header>
@@ -58,5 +64,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="../shared.js"></script>
 </body>
 </html>
